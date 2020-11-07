@@ -19,5 +19,9 @@ $(document).ready(function () {
     //   var nytResponse = response.data.image_original_url;
     console.log(myResponse);
     console.log(myResponse[0].abstract);
+    
+    $("#articles").text(myResponse[0].abstract);
   });
+
+  $("#submitBtn")
 });
