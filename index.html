@@ -10,6 +10,47 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
+    <header class="jumbotron">
+        <h1 class="display-4">New York Search</h1>
+    </header>
+    <form>
+        <div class="form-group Search-terms">
+          <label for="exampleInputEmail1">Search Terms</label>
+          <input type="text" class="form-control" aria-describedby="emailHelp">
+        </div>
+        
+        <div class="form-group Number-of-records">
+          <label for="exampleInputPassword1">Number of Records to Retrieve</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="form-group Start-yr">
+            <label for="exampleInputEmail1">Start Year (Optional):</label>
+            <input type="text" class="form-control"  aria-describedby="emailHelp">
+          </div>
+
+          <div class="form-group End-yr">
+            <label for="exampleInputPassword1">End Year (Optional):</label>
+            <input type="text" class="form-control">
+          </div>
+
+        
+          <button type="search" class="btn btn-primary">Search
+            <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+            <p>Trash icon on a button:
+                <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-trash"></span> Trash
+                </button>
+              </p>
+          </button>
+
+          <button type="clear" class="btn btn-primary" aria-label="Left Align">Clear Results
+
+
+          
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
 
 </body>
 </html>
